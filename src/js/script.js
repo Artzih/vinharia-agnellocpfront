@@ -1,6 +1,7 @@
 //Coletando informações do usuário prompt()
 let nome = prompt("Digite o nome do vinho:");
 let tipo = prompt("Digite o tipo do vinho (Tinto, Branco, ou Rosé)");
+let safra = prompt("Digite a safra (ano): ");
 
 
 //Aviso para ver no console alert()
@@ -8,3 +9,7 @@ let tipo = prompt("Digite o tipo do vinho (Tinto, Branco, ou Rosé)");
 
 
 //Informações coletadas console.log()
+
+
+
+console.log("Tipo:" , tipo );
