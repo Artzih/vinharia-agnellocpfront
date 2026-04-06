@@ -6,7 +6,7 @@ let quantidade = prompt("Digite a quantidade em estoque: ")
 
 
 //Aviso para ver no console alert()
-
+alert("Cadastro realizado com sucesso,veja os detalhes no console. ")
 
 
 //Informações coletadas console.log()
