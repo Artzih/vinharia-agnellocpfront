@@ -1,11 +1,12 @@
 //Coletando informações do usuário prompt()
 let nome = prompt("Digite o nome do vinho:");
-let tipo = prompt("Digite o tipo do vinho (Tinto, Branco, ou Rosé)");
+let tipo = prompt("Digite o tipo do vinho (Tinto, Branco, ou Rosé): ");
 let safra = prompt("Digite a safra (ano): ");
+let quantidade = prompt("Digite a quantidade em estoque: ")
 
 
 //Aviso para ver no console alert()
-
+alert("Cadastro realizado com sucesso,veja os detalhes no console. ")
 
 
 //Informações coletadas console.log()
