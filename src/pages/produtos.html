@@ -6,6 +6,8 @@
     <meta name="description" content="Produtos da Vinharia Agnello">
     <title>Produtos - Vinharia Agnello</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/efeitos.css">
+<head>
 <head>
 
 </head>
@@ -95,9 +97,50 @@ Sabemos que escolher um vinho pode ser difícil, por isso oferecemos sugestões 
 
 </main>
 
-<footer>
-<p>© 2026 Vinharia Agnello</p>
-</footer>
 
 </body>
 </html>
+<section class="banner">
+<h2>Descubra sabores únicos e especiais</h2>
+
+<section id="lista-vinhos" style="display: none;">
+<h2>Vinhos disponíveis</h2>
+
+<div class="card">Vinho Tinto</div>
+<div class="card">Vinho Branco</div>
+<div class="card">Vinho Rosé</div>
+<div class="card">Espumante</div>
+<div class="card">Vinho Doce</div>
+</section>
+
+<style>
+    #lista-vinhos {
+    display: none;
+    margin-top: 50px;
+    }
+</style>
+</head>
+<body>
+
+<button onclick="mostrarVinhos()">Comprar</button>
+
+
+
+<script>
+    function mostrarVinhos() {
+    const lista = document.getElementById("lista-vinhos");
+
+    if (lista.style.display === "none") {
+        lista.style.display = "block";
+    } else {
+        lista.style.display = "none";
+    }
+    }
+</script>
+
+
+<footer>
+    <p>© 2026 Vinharia Agnello</p>   
+</footer>
+
+
