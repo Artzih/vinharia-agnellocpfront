@@ -88,11 +88,6 @@ to {
 
 
 //pagina equipe.html
-.time-01 h1:after {
-    content: "🍷";
-    font-size: 20px;
-}
-
 .time-01 nav a:hover {
     color: gold;
 }
